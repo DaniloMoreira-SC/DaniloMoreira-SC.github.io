@@ -1,0 +1,81 @@
+/* Reseta margens e espaçamentos padrão de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais do corpo do site (Tema Escuro estilo GitHub) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho centralizado com borda na parte inferior */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    border-bottom: 1px solid #30363d;
+}
+
+/* Nome em destaque com a cor azul do GitHub */
+h1 {
+    color: #58a6ff;
+    font-size: 2.5rem;
+}
+
+/* Títulos das seções em azul */
+h2 {
+    color: #58a6ff;
+    margin-bottom: 15px;
+}
+
+/* Centraliza e limita a largura das seções principais */
+.sobre, .projetos {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+/* Caixinha estilo cartão para cada projeto */
+.card {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Nome do projeto dentro do card */
+.card h3 {
+    color: #f0f6fc;
+    margin-bottom: 10px;
+}
+
+/* Botão de link para o GitHub em tom verde */
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #238636;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Mudança de cor no botão ao passar o mouse */
+.card a:hover {
+    background-color: #2ea043;
+}
+
+/* Rodapé centralizado e com texto suavizado */
+footer {
+    text-align: center;
+    color: #8b949e;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
